@@ -34,7 +34,7 @@
             this.txtA = new System.Windows.Forms.TextBox();
             this.txtB = new System.Windows.Forms.TextBox();
             this.txtKetqua = new System.Windows.Forms.TextBox();
-            this.btClose = new System.Windows.Forms.Button();
+            this.btCong = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label3
@@ -85,21 +85,22 @@
             this.txtKetqua.Size = new System.Drawing.Size(229, 26);
             this.txtKetqua.TabIndex = 5;
             // 
-            // btClose
+            // btCong
             // 
-            this.btClose.Location = new System.Drawing.Point(403, 229);
-            this.btClose.Name = "btClose";
-            this.btClose.Size = new System.Drawing.Size(75, 36);
-            this.btClose.TabIndex = 6;
-            this.btClose.Text = "Đóng";
-            this.btClose.UseVisualStyleBackColor = true;
+            this.btCong.Location = new System.Drawing.Point(403, 229);
+            this.btCong.Name = "btCong";
+            this.btCong.Size = new System.Drawing.Size(75, 36);
+            this.btCong.TabIndex = 6;
+            this.btCong.Text = "Cộng";
+            this.btCong.UseVisualStyleBackColor = true;
+            this.btCong.Click += new System.EventHandler(this.btCong_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(561, 370);
-            this.Controls.Add(this.btClose);
+            this.Controls.Add(this.btCong);
             this.Controls.Add(this.txtKetqua);
             this.Controls.Add(this.txtB);
             this.Controls.Add(this.txtA);
@@ -107,7 +108,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -123,7 +124,7 @@
         private System.Windows.Forms.TextBox txtA;
         private System.Windows.Forms.TextBox txtB;
         private System.Windows.Forms.TextBox txtKetqua;
-        private System.Windows.Forms.Button btClose;
+        private System.Windows.Forms.Button btCong;
     }
 }
 
