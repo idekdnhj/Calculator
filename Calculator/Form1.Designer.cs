@@ -36,6 +36,8 @@
             this.txtKetqua = new System.Windows.Forms.TextBox();
             this.btCong = new System.Windows.Forms.Button();
             this.btTru = new System.Windows.Forms.Button();
+            this.btChia = new System.Windows.Forms.Button();
+            this.btNhan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label3
@@ -88,7 +90,7 @@
             // 
             // btCong
             // 
-            this.btCong.Location = new System.Drawing.Point(403, 229);
+            this.btCong.Location = new System.Drawing.Point(160, 229);
             this.btCong.Name = "btCong";
             this.btCong.Size = new System.Drawing.Size(75, 36);
             this.btCong.TabIndex = 6;
@@ -98,7 +100,7 @@
             // 
             // btTru
             // 
-            this.btTru.Location = new System.Drawing.Point(249, 229);
+            this.btTru.Location = new System.Drawing.Point(241, 229);
             this.btTru.Name = "btTru";
             this.btTru.Size = new System.Drawing.Size(75, 36);
             this.btTru.TabIndex = 7;
@@ -106,11 +108,33 @@
             this.btTru.UseVisualStyleBackColor = true;
             this.btTru.Click += new System.EventHandler(this.btTru_Click);
             // 
+            // btChia
+            // 
+            this.btChia.Location = new System.Drawing.Point(403, 229);
+            this.btChia.Name = "btChia";
+            this.btChia.Size = new System.Drawing.Size(75, 36);
+            this.btChia.TabIndex = 8;
+            this.btChia.Text = "Chia";
+            this.btChia.UseVisualStyleBackColor = true;
+            this.btChia.Click += new System.EventHandler(this.btChia_Click);
+            // 
+            // btNhan
+            // 
+            this.btNhan.Location = new System.Drawing.Point(322, 229);
+            this.btNhan.Name = "btNhan";
+            this.btNhan.Size = new System.Drawing.Size(75, 36);
+            this.btNhan.TabIndex = 9;
+            this.btNhan.Text = "Nhân";
+            this.btNhan.UseVisualStyleBackColor = true;
+            this.btNhan.Click += new System.EventHandler(this.btNhan_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(561, 370);
+            this.Controls.Add(this.btNhan);
+            this.Controls.Add(this.btChia);
             this.Controls.Add(this.btTru);
             this.Controls.Add(this.btCong);
             this.Controls.Add(this.txtKetqua);
@@ -138,6 +162,8 @@
         private System.Windows.Forms.TextBox txtKetqua;
         private System.Windows.Forms.Button btCong;
         private System.Windows.Forms.Button btTru;
+        private System.Windows.Forms.Button btChia;
+        private System.Windows.Forms.Button btNhan;
     }
 }
 
