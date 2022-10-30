@@ -1,0 +1,87 @@
+30-Oct-22 22:13:49	This log contains information about the import schema operation into project 'DbTest' on computer 'DESKTOP-MJ791I6' by user 'HNC'.
+30-Oct-22 22:13:49	Import of database schema has started.
+30-Oct-22 22:14:11	Gathering database credentials
+30-Oct-22 22:14:11	Gathering database options
+30-Oct-22 22:14:11	Gathering generic database scoped configuration option
+30-Oct-22 22:14:11	Gathering users
+30-Oct-22 22:14:11	Gathering roles
+30-Oct-22 22:14:11	Gathering application roles
+30-Oct-22 22:14:11	Gathering role memberships
+30-Oct-22 22:14:11	Gathering filegroups
+30-Oct-22 22:14:11	Gathering full-text catalogs
+30-Oct-22 22:14:11	Gathering assemblies
+30-Oct-22 22:14:11	Gathering certificates
+30-Oct-22 22:14:11	Gathering asymmetric keys
+30-Oct-22 22:14:11	Gathering symmetric keys
+30-Oct-22 22:14:11	Gathering encrypted symmetric keys
+30-Oct-22 22:14:11	Gathering schemas
+30-Oct-22 22:14:11	Gathering XML schema collections
+30-Oct-22 22:14:11	Gathering user-defined data types
+30-Oct-22 22:14:11	Gathering user-defined types
+30-Oct-22 22:14:11	Gathering table types
+30-Oct-22 22:14:11	Gathering unique keys for table types
+30-Oct-22 22:14:11	Gathering primary keys for table types
+30-Oct-22 22:14:11	Gathering indexes for table types
+30-Oct-22 22:14:22	Gathering check constraints for table types
+30-Oct-22 22:14:22	Gathering default constraints for table types
+30-Oct-22 22:14:22	Gathering partition functions
+30-Oct-22 22:14:22	Gathering partition schemes
+30-Oct-22 22:14:22	Gathering functions
+30-Oct-22 22:14:22	Gathering encrypted functions
+30-Oct-22 22:14:22	Gathering aggregates
+30-Oct-22 22:14:22	Gathering procedures
+30-Oct-22 22:14:22	Gathering encrypted procedures
+30-Oct-22 22:14:22	Gathering tables
+30-Oct-22 22:14:48	Gathering primary keys
+30-Oct-22 22:14:48	Gathering unique constraints
+30-Oct-22 22:14:48	Gathering foreign keys
+30-Oct-22 22:14:48	Gathering default constraints
+30-Oct-22 22:14:48	Gathering check constraints
+30-Oct-22 22:14:48	Gathering views
+30-Oct-22 22:14:48	Gathering encrypted views
+30-Oct-22 22:14:48	Gathering indexes
+30-Oct-22 22:14:48	Gathering statistics
+30-Oct-22 22:14:48	Gathering full-text index stoplists
+30-Oct-22 22:14:48	Gathering search property lists
+30-Oct-22 22:14:48	Gathering search properties
+30-Oct-22 22:14:48	Gathering full-text indexes
+30-Oct-22 22:14:48	Gathering column store indexes
+30-Oct-22 22:14:48	Gathering spatial indexes
+30-Oct-22 22:14:48	Gathering XML indexes
+30-Oct-22 22:14:48	Gathering Selective XML indexes
+30-Oct-22 22:15:14	Gathering encrypted triggers
+30-Oct-22 22:15:14	Gathering triggers
+30-Oct-22 22:15:14	Gathering encrypted and clr ddl triggers
+30-Oct-22 22:15:14	Gathering ddl triggers
+30-Oct-22 22:15:14	Creating edge constraints
+30-Oct-22 22:15:14	Gathering synonyms
+30-Oct-22 22:15:14	Gathering defaults
+30-Oct-22 22:15:14	Gathering data constraint uddt bindings
+30-Oct-22 22:15:14	Gathering rules
+30-Oct-22 22:15:14	Gathering data constraint uddt bindings
+30-Oct-22 22:15:14	Gathering message types
+30-Oct-22 22:15:14	Gathering queues
+30-Oct-22 22:15:14	Gathering contracts
+30-Oct-22 22:15:14	Gathering services
+30-Oct-22 22:15:14	Gathering event notifications
+30-Oct-22 22:15:14	Gathering remote service bindings
+30-Oct-22 22:15:14	Gathering broker priorities
+30-Oct-22 22:15:14	Gathering signatures
+30-Oct-22 22:15:14	Gathering data compression options
+30-Oct-22 22:15:14	Gathering sequence types
+30-Oct-22 22:15:14	Gathering security policies
+30-Oct-22 22:15:14	Gather column encryption keys
+30-Oct-22 22:15:14	Gathering column master keys
+30-Oct-22 22:15:14	Gathering external data sources
+30-Oct-22 22:15:14	Gathering external file formats
+30-Oct-22 22:15:14	Gathering external tables
+30-Oct-22 22:15:14	Gathering extended properties
+30-Oct-22 22:15:15	Gathering assemblies
+30-Oct-22 22:15:15	Gathering credentials
+30-Oct-22 22:15:15	Gathering logins
+30-Oct-22 22:15:15	Gathering server audits
+30-Oct-22 22:15:15	Scanning project for duplicate elements
+30-Oct-22 22:15:17	Finished duplicate element processing
+30-Oct-22 22:15:17	Finished importing database.
+30-Oct-22 22:15:17	A summary of the import was saved to the following location: C:\Users\HNC\Desktop\Demo\Calculator\DbTest\Import Schema Logs\DbTest_20221030031349.log
+30-Oct-22 22:15:17	Click Finish to continue...

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTester", "CalculatorTester\CalculatorTester.csproj", "{A5745597-1178-4E32-BF3A-7FD9656D9B65}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DbTest", "DbTest\DbTest.sqlproj", "{541D1C3B-12E2-41FF-9051-970C6871B7F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookstoreDbTester", "BookstoreDbTester\BookstoreDbTester.csproj", "{6D137D90-2B58-4FF4-82AE-22D32840077D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,16 @@ Global
 		{A5745597-1178-4E32-BF3A-7FD9656D9B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5745597-1178-4E32-BF3A-7FD9656D9B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5745597-1178-4E32-BF3A-7FD9656D9B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541D1C3B-12E2-41FF-9051-970C6871B7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541D1C3B-12E2-41FF-9051-970C6871B7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541D1C3B-12E2-41FF-9051-970C6871B7F2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{541D1C3B-12E2-41FF-9051-970C6871B7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541D1C3B-12E2-41FF-9051-970C6871B7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541D1C3B-12E2-41FF-9051-970C6871B7F2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6D137D90-2B58-4FF4-82AE-22D32840077D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D137D90-2B58-4FF4-82AE-22D32840077D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D137D90-2B58-4FF4-82AE-22D32840077D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D137D90-2B58-4FF4-82AE-22D32840077D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
